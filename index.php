@@ -160,14 +160,14 @@
             <div>
               <h2 class="imtemhsm">E-Commerce Sites</h2>
             <img src="images/e-commrec.jpg" alt="ecommerce-dev"
-            class="imagewe w-50"
+            class="imagewe img-fluid w-50 "
             >
            </div>
 
            <div>
             <h2 class="cms">CMS designed business <br> websites</h2>
            <img src="images/cmswebdevelopment.jpeg" alt="ecommerce-dev"
-           class="imagewe w-50"
+           class="imagewe w-50 img-fluid"
            >
          </div>
          <div>
@@ -201,7 +201,7 @@
                 <a href=" https://jiji.ng/" target="_blank">
                   <img
                     src="images/jiji.jpeg"
-                    class="card-img-top"
+                    class="card-img-top img-fluid"
                     alt="image of range rover"
                   />
                 </a>
@@ -219,7 +219,7 @@
                 >
                   <img
                     src="images/YEAMPIG.JPEG"
-                    class="card-img-top"
+                    class="card-img-top img-fluid"
                     alt="image of yema"
                   />
                 </a>
@@ -237,7 +237,7 @@
                 >
                   <img
                     src="images/DEVLOP.jpg"
-                    class="card-img-top"
+                    class="card-img-top img-fluid"
                     alt="image of amyo"
                 /></a>
                 <div class="card-body">
@@ -291,7 +291,9 @@
           <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
               <div class="card" id="cardtamall">
-                <img src="images/gateway5.png" class="card-img-top img-fluid" alt="image showing ssl">
+                <img src="images/gateway5.png" 
+                class="card-img-top img-fluid" 
+                alt="image showing ssl">
                 <div class="card-body">
                   <h5 class="card-title">Payment Gateway Integration</h5>
                   <p class="card-text">We will intrgrate  any payment gateway you want.</p>
@@ -300,7 +302,10 @@
             </div>
             <div class="col">
               <div class="card " id="cardtamall">
-                <img src="images/freehost.jpeg" class="card-img-top img-fluid" alt="image showing free host" id="imageiaa">
+                <img src="images/freehost.jpeg" 
+                class="card-img-top img-fluid" 
+                
+                alt="image showing free host" id="imageiaa">
                 <div class="card-body">
                   <h5 class="card-title">No Charges Apply for hosting</h5>
                   <p class="card-text"> We host your website for free</p>
@@ -309,7 +314,10 @@
             </div>
             <div class="col">
               <div class="card " id="cardtamall">
-                <img src="images/ssl.jpg" class="card-img-top img-fluid" alt="ssl certificate logo"  id="imageiaa">
+                <img src="images/ssl.jpg"
+                 class="card-img-top img-fluid" 
+                 alt="ssl certificate logo"  
+                 id="imageiaa">
                 <div class="card-body">
                   <h5 class="card-title">SSL Certicate Integration</h5>
                   <p class="card-text">You need to add SSL certificates to your websites
@@ -326,17 +334,27 @@
             <!--first div and images.-->
             <div class="allcol d-flex">
              <div class="div1">
-              <img id="fits-client"  class="desi" src="images/happy.jpg" alt="happy emoji">
-              <p class="strogyou" id="0101">80</p>
-              <p id="site" class="pppes" >Numbers of Happy Client.</p>
+              <img id="fits-client"  
+              class="desi img-fluid" 
+              src="images/happy.jpg" 
+              alt="happy emoji">
+              <p class="strogyou"
+               id="0101">80</p>
+              <p id="site" 
+              class="pppes" >Numbers of Happy Client.</p>
              </div>
              <div  class="div1">
-              <img id="deisgmh" class="desi" src="images/them-design.jpg" alt="design picture">
+              <img id="deisgmh"
+               class="desi img-fluid" 
+               src="images/them-design.jpg"
+                alt="design picture">
               <p id="0102">500</p>
               <p class="pppes">Numbers of well designed Theme.</p>
              </div>
              <div  class="div1">
-              <img  class="desi" src="images/theme.jpg" alt="image showing theme">
+              <img  class="desi img-fluid"
+               src="images/theme.jpg" 
+               alt="image showing theme">
               <p  id="0103">100</p>
               <p class="pppes">Completed Projects..</p>
              </div>
@@ -354,7 +372,10 @@
           <h2 >Our client experiences !</h2>
         </div>
           <div class="mySlides fade">
-          <img src="images/no-image1.png"  class="images-ever" style="width: 100px;" alt="imag of no image.">
+          <img src="images/no-image1.png"  
+          class="images-ever img-fluid" 
+          style="width: 100px;" 
+          alt="imag of no image.">
           <div class="text-client">
              <p id="client-sya">
                We thank your Team for building us what we needed.Our website you build is exactly
@@ -365,7 +386,10 @@
          
         </div>
         <div class="mySlides fade">
-          <img src="images/no-image1.png"  class="images-ever"  style="width: 100px;" alt="imag of no image.">
+          <img src="images/no-image1.png"  
+           class="images-ever img-fluid"  
+           style="width: 100px;" 
+           alt="imag of no image.">
           <div class="text-client">
             <p id="client-sya">
              Our experience with Etonki Tech Solutions is highly 
