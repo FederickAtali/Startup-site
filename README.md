@@ -31,3 +31,8 @@ the send-mail.php file so it will be able to send mail to your visitors.
 #Showing how responsive this code is
 
 ![Alt text](image.png)
+
+                   #Adding image to show how responsive this code is on middle size screen
+                   #This is the about.hmtl file on middel screen screen size
+
+                   ![Alt text](image-1.png)
