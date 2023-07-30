@@ -27,3 +27,7 @@ NB:
 The sendmail.php file is not completed.Incase you have plans to make some neccessary
 adjustment to this project and get a domain name,you will need to do some changes to
 the send-mail.php file so it will be able to send mail to your visitors.
+
+#Showing how responsive this code is
+
+![Alt text](image.png)
