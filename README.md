@@ -36,4 +36,4 @@ the send-mail.php file so it will be able to send mail to your visitors.
  #This is the about.hmtl file on middel screen screen size
 
                  
-![Alt text](image-2.png)
+![Alt text](image-3.png)
