@@ -1,0 +1,1503 @@
+
+/** box-szing: border-box makes sure that the
+ total width and height
+ of elements include padding and borders.
+ As a result, elements do not 
+ appear bigger than they should be.*/
+*{box-sizing: border-box;}
+
+
+
+body{
+
+    width: 100%;
+    margin: 0;
+}
+
+
+#contall{
+    margin-right: -60px !important;
+}
+
+
+#home{
+   color: red;
+   font-size: x-large;
+    font-weight: 900;
+   font-family:'Times New Roman', Times, serif;
+
+   
+}
+
+#span-one{
+    display: none;
+}
+
+#span-one.show{
+   display: block;
+}
+
+
+
+
+.navbar{
+   box-shadow: 0px 2.98256px  7.98564px rgba(0,0,0,0.1);
+  background-color: azure;
+ 
+
+
+  
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#firstUL{
+    font-size: large;
+    font-weight: 700;
+    color: black;
+    margin-right: 10px;
+}
+
+/* Styling the element with id attribute valur of image12*/
+#image12{
+  
+    border-radius: 10px;
+   
+}
+
+/* Apply this to the section below a header OR nav element
+that has a position-fixed.*/
+#first-con,#pricing-contai,.contact-us1,.web-desigin1,#web-ecommerce,
+.cmsgauu,.about1,#porforlio-sec,.billprivacy, .site-map1,.terms-condition{
+    display: flex;
+    /*This is to ensure it is position at the top, 
+    and above every other element on the z-plane.*/
+    top: 20px; 
+    z-index: 2;
+    margin-top: 20%
+}
+
+.site-map1{
+    margin-top:10% !important;
+}
+.terms-condition{
+    margin-top: 10%;
+    background-color: indigo;
+}
+.web-desigin1{
+    margin-top: 10% !important;
+    background-color:indigo;
+}
+.cmsgauu{
+    margin-top: 10%;
+}
+
+#porforlio-sec{
+    margin-top: 10% !important;
+}
+.about1{
+   
+    height: 400px;
+    margin-top: 2% !important;
+}
+
+#pricing-contai{
+    margin-top: 5% !important;
+  
+}
+
+.contact-usall{
+    margin-left: 33%;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+
+/* setting a differerent margin to 
+to the first section in the contact page.*/
+.contact-us1{
+    margin-top: 10% !important;
+    background-color: indigo;
+    
+}
+
+
+.firsth3{
+   margin-top: 30px;
+   margin-left: 5px;
+}
+
+.textam{
+    padding: 10px;
+    font-size: medium;
+    font-weight: 600;
+    color: gray;
+   
+    
+  
+}
+
+#but-one,.erp-softw,.webdesign-butt,#weba-cmm-butt,.cmsbuttthree{
+    margin-left:50px;
+    margin-top:  20px;
+    background-color: red;
+    width: 200px;
+    color: white;
+    padding: 10px 10px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.cmsbuttthree:hover{
+    background-color: black;
+}
+
+.cmsbuttthree{
+    background-color: red;
+}
+
+#weba-cmm-butt{
+    background-color: black !important;
+  
+}
+#weba-cmm-butt:hover{
+   background-color: indigo !important;
+}
+.webdesign-butt{
+    border-style: none;
+
+}
+.webdesign-butt:hover{
+    background-color: black;
+}
+.erp-softw{
+   margin-left: 35% !important;
+   border-style: none;
+}
+
+.erp-softw:hover{
+    background-color: black;
+
+}
+
+
+#but-one:hover{
+    background-color:black;
+}
+
+/* How to do a split background color.*/
+.what-we-do{
+    background: linear-gradient(
+      to right,
+      indigo 0%,
+      indigo 50%,
+     azure 50%,
+      azure 100%
+      
+    );
+    margin-bottom: 50px;
+    margin-top: 50px;
+   
+}
+
+.h2three{
+   margin-left: 30%;
+    margin-top: 10%;
+    color: black;
+   
+}
+.sectionh1{
+    color: white;
+    margin-top: 50px;
+     margin-bottom: 50px;
+   
+}
+.cms{
+    width: 200px;
+    margin-top: 50px;
+    margin-right: 3px ;
+    color: white;
+}
+
+
+.imagewe{
+    height: 200px;
+}
+
+.making{
+    margin-bottom: 10%;
+}
+
+.imtemhsm{
+
+    width: 180px;
+    margin-right: 10px;
+    color:  white;
+}
+
+.Alittle{
+    margin-top: 5%;
+}
+
+.portfolar{
+    margin-left: 34%;
+}
+
+.truncateam{
+    margin-left: 10%;
+    color: grey;
+  
+
+}
+
+.truncate2{
+    margin-left: 30%;
+  color: grey;
+}
+
+
+#larageCars{
+   
+    height: 400px;
+}
+
+#some-words-sec{
+    margin-left: 20%;
+}
+ 
+#imageon{
+    height:400px;
+}
+
+
+
+
+#allcard:hover{
+    border-color: azure; 
+
+}
+
+.card:hover{
+ border-color: #6610f2;
+}
+
+.card{
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+}
+
+
+#Colorbutt{
+   margin-left: 30%;
+   margin-top: 2%;
+}
+
+
+#Colorbutt{
+    width: 200px;
+    background-color: red;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 20px;
+    height: 40px;
+    align-items: center;
+    font-weight: 500;
+    font-size: large;
+}
+
+
+#Content-manage-read{
+ color: black;
+ font-size: larger;
+ font-weight: bold;
+}
+
+#Content-manage-read:hover{
+    color: #6610f2;
+}
+
+#Colorbutt:hover{
+    background-color: black;
+   
+}
+
+#neuw{
+    margin-top: 10%;
+}
+
+
+#james{
+    display: inline-block; 
+
+
+}
+
+.card-img-top{
+
+width: 300px;
+
+}
+
+
+.MOVE{
+    height: 5rem;
+    width: 8rem;
+    border-radius: 50%;
+    margin-top: 5%;
+    display: flex;
+    animation: move 10s infinite;
+}
+#ballID{
+   margin-left: 50px;
+}
+#image-php{
+    margin-left: 10px !important;
+}
+
+#image1-move,#image-php{
+   
+    height: 30px;
+}
+
+.tecis{
+    margin-left: 20%;
+    margin-top: 5%;
+    color: white;
+}
+
+.some-rea{
+    background-color: indigo;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+   
+}
+.animatam {
+   margin-top: 10%;
+
+}
+
+#site,.pppes{
+   font-weight: 900;
+   font-size: x-large;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+
+#fits-client{
+    height: 80px;
+    margin-bottom: 5%;
+}
+
+
+#deisgmh{
+    margin-bottom: 10%;
+}
+
+.pppes{
+    margin-top: 5%;
+}
+
+.div1{
+    margin-left: 17%;
+}
+
+
+.desi{
+    width: 100px;
+}
+
+
+#commencec{
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#ecom2{
+  margin-top: 5%;
+  background-color: red;
+  background-size: cover;
+
+ 
+}
+
+#commerce-e{
+    display: flex;
+}
+
+.future{
+    color:wheat;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    width: 400px;
+}
+
+.getyour{
+    color: white;
+    margin-top: 20px;
+}
+
+
+
+#buttonecom{
+    margin-left: 30%;
+    color: white;
+
+    background-color: indigo;
+   
+    width: 190px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-style: none;
+    font-size: large;
+}
+
+#buttonecom:hover{
+    background-color: black;
+}
+
+#readmore1{
+    margin-left: 30%;
+    text-decoration: underline;
+    color: white;
+}
+
+#readmore1:hover{
+    color: none;
+}
+
+#supportam-images{
+    width: 400px;
+}
+
+.mores-feautrures{
+    margin-top: 10% ;
+ 
+}
+
+#support-features{
+    padding: 20px;
+}
+
+.supportam{
+    margin-right: 10px;
+
+}
+
+.supportam2{
+    margin-left: 10px;
+}
+.supportzm1h1{
+    margin-top: 10px;
+    font-weight: 700;;
+  
+
+}
+
+#supportam-images{
+    margin-top: 50px;
+
+}
+
+#supportamh3{
+    margin-top: 20px;
+    font-weight: 700;
+    width: 350px;
+}
+
+#integratepay{
+    margin-top: 20px;
+}
+
+.gate5{
+    height: 300px;
+}
+
+.we-buld{
+    margin-top: 100px;
+    margin-bottom: -50px;
+}
+
+.customisable{
+    width: 300px;
+}
+
+
+.contain-manage{
+    background: linear-gradient(
+      to right,
+      azure 0%,
+      azure 50%,
+      indigo 50%,
+      indigo 100%
+      
+    );
+    background-size: cover;
+}
+
+.cms-management-image{
+    width: 400px;
+    margin-left: 10%;
+    margin-top: 10%;
+  
+}
+
+#cms-text{
+    width: 300px;
+    margin-top: 5px;
+}
+
+.contain-manage{
+    margin-top: 10%;
+   
+}
+
+#noimage{
+    border-radius: 200px;
+    width: 100px;
+}
+
+
+
+.h2-cms{
+    margin-top: 10%;
+}
+
+#buttam{
+    margin-left: 5%;
+    margin-top: -8px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.manually-config{
+margin-left: 10%;
+margin-top: 40%;
+color: white;
+width: 300px;
+}
+
+
+.socialmed{
+    display: flex;
+}
+
+#what{
+    color:lightgreen;
+    font-size: 1rem;
+
+}
+
+#insta{
+color: rgb(139, 0, 46);
+font-size: 1rem;
+
+}
+#linked{
+    font-size: 1rem;
+}
+
+#facebook{
+    font-size: 1rem;
+}
+
+#twitteri{
+    font-size: 1rem;
+}
+
+#footam-all{
+    display:flex ;
+    
+}
+
+#formall1{
+    margin-left: 10% !important;
+}
+
+
+#inputfirst,#addressess{
+   margin-left: 4%;
+   margin-top: 5%;
+
+   
+
+}
+
+.foot{
+    margin-top: 10%;
+    background-color: black;
+    width: 100%;
+    
+}
+
+
+/* Removing the bullet point in list items.*/
+.listy {
+    list-style-type: none;
+   
+}
+
+
+@media(min-width:768px){
+    .news-input{
+        width:50%;
+       }
+}
+
+
+#tables1{
+    background-image: url(https://plus.unsplash.com/premium_photo-1664303254776-7ea8bc67bc2b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=878&q=80);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ width: 100%;
+ height: 400px;
+}
+
+
+.ourp{
+  
+    font-weight: 900;
+     font-size: xx-large;
+      
+}
+
+
+#pricing-contai{
+   display: block;
+}
+
+.personalweb{
+  margin-left: 30%;
+  font-size:xx-large;
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif
+}
+
+
+/** Stylying the table*/
+
+#customers th{
+    background-color:indigo;
+    color: white;
+    padding: 20px;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+  
+}
+#customers tr{
+    padding: 20px;
+    font-size: large;
+}
+
+/** Setting some table statistics*/
+.table {
+    font-family: arial, sans-serif;
+    width: 100%;
+    border-collapse:initial;
+  }
+
+
+
+/** Setting Colors using nth child. */
+
+tr:nth-child(even){background:rgb(240, 241, 255)};
+
+
+.prices1{
+    color: blue;
+}
+
+.prices2{
+    color: red;
+}
+
+.prices3{
+    color: plum;
+}
+
+
+.xmark{
+    color: blueviolet;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+/**Foot styling goes here*/
+.sec{
+    background-color: black;
+    padding: 5px;
+    width: 100%;
+  
+}
+
+#foot-container{
+    padding: 5px;
+
+}
+
+.sect-f{
+    margin-left: 20%;
+}
+
+.first-foot h2{
+    color: white;
+   
+}
+
+.first-foot a{
+    color: white;
+    text-decoration: none;
+   
+}
+.first-foot li{
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.first-foot li:hover{
+    text-decoration: underline;
+
+}
+
+
+
+.sect-f h2{
+    color: white;
+ 
+}
+.sect-f li{
+    color: white;
+    margin-top: 20px;
+  list-style-type: none;
+   
+}
+
+#tele{
+    color: white;
+}
+.sect-f a{
+    text-decoration: none;
+    color: white;
+}
+
+.site-map{
+    margin-top: 40px;
+    margin-left: 10%;
+}
+.site-map li{
+    list-style-type: none;
+    color: white;
+
+   
+}
+
+.site-map a{
+ text-decoration: none;
+}
+
+
+/** Styling the slide section */
+.dot{
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius:  50%;
+    display: inline-block;
+
+
+}
+
+.active{
+    background-color: #717171;
+}
+
+
+/**------------------------------Styling for our slides---------------------- */
+.client-saying{
+    background-color: red;
+    margin-top: 10%;
+ 
+  
+}
+ 
+
+
+/* Slides show container */
+.slideshow-container{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+
+}
+
+/* By default all the images will be hidden */
+.mySlides{
+    display: none
+}
+
+/* styling the next and prev button */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: 15%;
+    padding: 16px;
+    color: azure;
+    background-color: #6610f2;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px  0;
+    user-select: none;
+   
+}
+.prev:hover,.next:hover{
+    background-color: black;
+}
+
+/* position the next button to the right */
+.next{
+    right: 0;
+    border-radius: 3px  0 0  3px;
+}
+
+.some-client{
+    margin-left: 30%;
+    margin-top: 10px;
+    color: white;
+   
+  
+}
+
+/* styling the caption text */
+.text-client{
+    color: white;
+    font-size: 15px;
+    padding: 8px 12px;
+    position:absolute;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+  
+}
+#client-sya{
+    width: 500px;
+    margin-left: 17%;
+}
+
+
+/* styling the dot bullets indicator */
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #222;
+    border-radius: 50%;
+    display:  inline-block;
+    transition: background-color  0, 6s ease;
+    margin-top: 16% !important;
+
+}
+
+/*    */
+.active, .dot:hover{
+    background-color: #717171;
+}
+
+/* Fading animation */
+ .fade{
+    animation-name: fade;
+    animation-duration: 10.5s;
+ }
+
+ @keyframes fade{
+    from{
+        opacity: .4
+    }
+    to{opacity: 1}
+ }
+
+ .images-ever{
+    margin-left: 45%;
+    margin-top: 5%;
+    border-radius: 50%;
+ }
+
+ .tiku{
+    text-align: center;
+    margin-top: 3px;
+    font-weight: bold;
+ }
+
+
+ /* This  styling is for the section of cms  */
+ 
+ .content-manage{
+
+     margin-top: 10%;
+       
+       
+    }
+ 
+    
+ .content-manage-para{
+    width: 400px;
+ }
+
+ .csm-image{
+    
+    margin-top: 10px;
+   
+    border-radius: 12px;
+ }
+
+ #h2Management-System{
+    margin-top: 20px;
+ }
+
+ .content-manage{
+    margin-top: 10px;
+    font-size: medium;
+
+    font-family: sans-serif;
+    padding: 10px;
+    
+ }
+
+
+ /* This styling is for the section with security.*/
+ .security24{
+   background-color: indigo;
+  
+ }
+
+ #cardtamall{
+   height: 470px;
+ }
+ #imageiaa{
+    height: 400px;
+ }
+
+ .securityh2{
+    color: white;
+    font-weight: 700;
+    width: 400px;
+
+
+ }
+
+ 
+
+ #CARD-ERP{
+    margin-left: 15%;
+    margin-top: 3%;
+ }
+
+ .h2erpsoft{
+   text-align: center;
+ }
+
+
+ .erp-software{
+    margin-bottom: 10%;
+ }
+
+
+
+ /*-----------------------------------------Form Section---------------------*/
+/* This is for the form container*/
+ #popup-form{
+
+    width:300px;
+    height: 300px; /* cover entire screen */
+    background-color:indigo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+
+ }
+/* Styling the contact button*/
+ .contact-us,#clickme-here{
+    padding:  10px 60px;
+    background: red;
+    border: 0;
+    outline: none;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 30px;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+ }
+ /* Seting hover effect on the contact us button*/
+ .contact-us:hover{
+    background-color: black;
+ }
+
+ /* Setting hover effect in the click here button*/
+ #clickme-here:hover{
+    background-color: black;
+ }
+
+ /* Styling the box that pop up when a contact button is click*/
+ .pop-up{
+    width:  500px;
+    background-color: white;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1); /**make it very small */
+    text-align: center;
+    padding: 0 30px 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+ }
+
+ /* show is form when the contact us button is click*/
+ .openForm{
+    visibility: visible;
+    top: 35%;
+    transform: translate(-50%,-50%) scale(1);
+ }
+
+ /* adding some padding in the form element.*/
+ .form-contain{
+   padding: 20px; 
+ }
+/* adding some styling in the form input field name */
+ .nameform{
+    padding: 20px; 
+ }
+ /* styling the input fileds*/
+ #name1,#email1,#comment1, #send1{
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+ }
+
+ /* Adding some extra styling to the submit button*/
+ #send1{
+width: 100px !important;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: normal;
+  color: white;
+  background-color: red;
+  border-style: none;
+  cursor: pointer;
+ }
+ /* Setting hover effect in the submit button*/
+ #send1:hover{
+    background-color: black;
+ }
+ /* Increasing input field space of the submit button*/
+ #comment1{
+    height: 150px;
+ }
+
+ /* Adding some margin to the section that contain the form*/
+ .form-one{
+    margin-top: 2%;
+ }
+
+
+
+
+ /*-----------------------Styling for contact page--------------------*/
+
+ .gettouch{
+    color: black;
+ }
+ 
+ #contact-card1{
+    margin-right: 50px;
+    width: 250px;
+ }
+ #contact-card2{
+    width: 250px;
+ }
+ #call-icon,#call-icon2{
+    width: 40px;
+   margin-left: 40%;
+   margin-top: 10px;
+   border-style: solid;
+   border-radius: 50%;
+   padding: 10px;
+   border-color: red;
+ }
+
+ #card-contact-numn{
+   
+    font-size: larger;
+    font-weight: 700;
+ }
+
+ #contact-card1{
+    padding: 20px;
+ }
+ #call-icon2{
+    margin-top: 30px !important;
+ }
+
+ #clickme-here{
+    margin-left: 30%;
+    margin-top: 2%;
+ }
+
+ #comment1{
+    margin-left: -10px;
+ }
+
+
+ /*-------------------------------------Styling for the webdesign.html--------------*/
+ #web-designh2{
+    margin-left: 30%;
+    color: white;
+    font-weight: 900;
+  
+ }
+
+ .webdesignh3{
+    color: white;
+    font-size: xx-large;
+ }
+
+ .webdesignp{
+    color: white;
+ }
+
+ #webdesignh3{
+    color: black;
+    font-size: xx-large;
+    width: 250px;
+ }
+
+ .webdesign-sec3{
+    background-color: azure;
+    margin-top: 10%;
+ }
+ 
+ .webdesign4{
+    margin-top: 10%;
+ }
+
+
+/**
+ #image-One{
+    width: 600px;
+    height: 500px;
+    margin-top: 30px;
+    
+ }
+*/
+ #allcolhere{
+    background-color: indigo;
+    column-gap: 50px;
+ }
+ 
+
+
+ .grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+  
+   
+
+
+ }
+
+ .grid-item{
+    background-color:lightgray;
+    padding: 27px;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    transition: transform .2s;
+    color: white;
+   
+   
+ }
+
+ .grid-item:hover{
+    background-color: black;
+    transform: scale(1.5);
+    border-radius: 20px;
+   
+
+ }
+
+ .our-sercices-pro{
+    margin-left: 10%;
+    font-size: 40px;
+    font-weight: bold;
+ }
+
+ .web-services{
+    background-color: lightcyan;
+ }
+ #web-design-service{
+   margin-left: -5px;
+ }
+
+ /* Styling For E-commerce Websites*/
+ .e-commerceh1p{
+    color: white;
+ }
+
+ #web-ecommerce{
+    margin-top: 10%;
+    background-color: indigo;
+ }
+
+ .e-commerce-sitepall{
+    color: white;
+ }
+ .ecommerc-features li{
+    margin: 20px;
+ }
+
+ .websiteee{
+    margin-top: 20px;
+ }
+ 
+ .webimageesite{
+    margin-top: 10%;
+    margin-left: 10%;
+ }
+ 
+
+ .e-commerceh22{
+    margin-top: 5%;
+ }
+
+ .e-commercesecond{
+    width: 100%;
+   
+ }
+
+
+
+ .cms-website1{
+    background-color:indigo;
+    margin-top: 10%;
+ }
+
+ .cmsgauu{
+    background-color: indigo;
+ }
+
+ .cmswebr{
+    color: white;
+ }
+
+ .cmswerp{
+    color: white;
+ }
+
+ #cmsmanga{
+    width: 800px;
+    margin-top: 5%;
+ }
+
+ .contencmsul{
+    margin-top: 5%;
+ }
+
+ /* Removing the dot in list element*/
+ .ulcmsli li{
+    list-style-type: none;
+ }
+
+
+ /* Styling the about page*/
+ .about1{
+    background-color: indigo;
+ }
+
+ .about12{
+  margin-top: 15%;
+  margin-left: 35%;
+  color: white;
+  font-weight: 900;
+ }
+
+ .about12hp{
+    color: white;
+    margin-left: 20%;
+    font-weight: 300;
+   
+ }
+
+ .about123phj{
+   margin-left: 26%;
+   margin-top: -10px;
+   color: white;
+   font-weight: 300;
+ }
+
+ .whereabous{
+    margin-top: 30px;
+    font-weight: bold;
+ }
+
+/**
+ #navbarNavDropdown li{
+    padding: 15px;
+ }
+*/
+ #homan,#aboutam,#whatwe,#samples,#navbarDropdownMenuLink,#contall{
+    font-weight: 700;
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+    padding: 17px;
+ }
+
+ #homan{
+    color:#6610f2;
+ }
+
+
+
+ /** styling the privacy policy page */
+ .billprivacy{
+   
+     margin-top: 10% !important;
+     background-color: indigo;
+     height: auto;
+ }
+
+
+ .h1privacy{
+    margin-left: 35%;
+    color: white;
+    font-weight: 900;
+    
+ }
+
+ .exclam{
+    width: 20px;
+    margin-bottom: 30px;
+ }
+
+ .summaryprivacy{
+    margin-left: 10px;
+ }
+
+ .thiredprivacy{
+    background-color: #bbb;
+ }
+
+ .boldHead{
+    font-weight: bold;
+ }
+ .firstsecp{
+    margin-top: 25px;
+ }
+
+ .lasupy{
+    font-weight: 300;
+ }
+
+
+ /* Styling for site map sietmay*/
+ .sietmay{
+    margin-left: 43%;
+    color: white;
+    font-weight: bold;
+    
+ }
+ 
+ .pic-sitemap{
+    margin-top: 30px;
+ }
+ 
+ .site-map li{
+    padding: 15px;
+ }
+
+ .site-map li:hover{
+    text-decoration: underline;
+ }
+
+
+ /**  Terms and conditions*/
+ .term-useconh2{
+    margin-left: 33%;
+    color: white;
+    
+ }
+
+ .termslasted{
+    font-weight: 200;
+ }
+
+
+ .term-useam{
+    margin-left: 21%;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+ }
+
+ .h5last{
+    margin-top: 30px;
+ }
+
+ .wearenot{
+    text-transform: capitalize;
+ }
+
+
+ #compyry{
+    margin-left: 30%;
+    color: white;
+    margin-top: 5%;
+ }
+
+ .site-map1{
+    background-color: indigo !important;
+ }
+
+ .sietmayp1{
+    margin-left: 27%;
+    color: white;
+ }
+
+ .iguess{
+    margin-top: -4%;
+ }
+
+
+
+/** media queries */
+
+@media(min-width:768px){
+    .news-input{
+        width:50%;
+       }
+}
